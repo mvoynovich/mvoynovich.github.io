@@ -1,0 +1,271 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: whitesmoke;
+  
+}
+
+/* Navigation Section */
+#navigation {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 1em 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: #202A44;
+}
+.name {
+  font-size: 2.5em;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a{
+  position: relative;
+  font-size: 1.4em;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 1.5em;
+}
+
+.navbar a::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left:0;
+  width: 0;
+  height: 0.125em;
+  background: white;
+  transition: .3s;
+}
+
+.navbar a:hover::before{ 
+  width:100%;
+}
+
+/* About Section */
+
+#aboutContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  width: 100%;  
+}
+
+#about {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+}
+
+#aboutSection{
+  float: left;
+  width: 55%;
+}
+
+.links img{
+  width: 30px;
+  height: auto;
+}
+#imgSection{
+  float: right;
+  width: 40%;
+  margin: auto;
+}
+#imgSection img{
+  display: block;
+  width: 100%;
+  max-width: 35em;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#aboutSection .title{
+  font-size: 1.75em;
+}
+
+#aboutSection h3{
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #5d5d5d;
+}
+
+#aboutSection p{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.moreButton{
+  width: fit-content;
+  margin-top: 30px;
+  float: left;
+}
+.moreButton a{
+  text-decoration: none;
+  background-color: #3d3d3d;
+  padding: 12px 40px;
+  color: whitesmoke;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+
+}
+.moreButton a:hover{
+  background-color: #202A44;
+}
+
+.links{
+  float: left;
+  width: fit-content;
+  margin-top: 30px;
+  margin-right: 140px;
+}
+.links img{
+  margin-left: 30px;
+}
+
+/* Projects Section */
+
+#projectsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2em 0;
+}
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#projects h1{
+  text-align: center;
+  font-size: 3.5em;
+  padding-bottom: 0.5em;
+}
+
+.allProjects{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.project {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 25em;
+  padding: 1em 2em 1em 2em;
+  border: 4px solid #202A44 ;
+  border-radius: 2rem;
+  background: white;
+  height: 40em;
+}
+.projImg{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+.projImg img{
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.buttons{
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.projButton, .demoButton{
+  background-color: #3d3d3d;
+  padding: 8px;
+  width:fit-content;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 16px;
+  color:white;
+}
+.projButton:hover, .demoButton:hover{
+  background-color: #202A44;
+}
+
+.project{
+  text-align: center;
+}
+
+.project h2{
+  font-size: 2em;
+  padding-bottom: 0.5em;
+}
+
+.projectBlurb{
+  padding-top: 0.5em;
+  font-size: 1.25em;
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  color:white;
+  background-color: #202A44;
+  padding: 0.5em 0 0.5em 0;
+  margin-bottom: 0;
+}
+
+/* Contact Page */
+
+#contact{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20vw;
+}
+
+#contactInfo{
+  width:fit-content;
+}
+
+#contactInfo h1{
+  font-size: 3em;
+}
+
+#contactInfo h3{
+  font-size: 2em;
+  color:#5d5d5d;
+  padding-top: 0.5em;
+
+}
+#contactForm{
+  width:fit-content;
+}

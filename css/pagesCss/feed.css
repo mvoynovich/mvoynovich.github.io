@@ -1,0 +1,16 @@
+#rss h1, #atom h1, #rss h2{
+  margin-left: 220px;
+  width: 700px;
+}
+#rss p{
+  margin-left: 220px;
+  width: 600px
+}
+.entry{
+  height:170px
+}
+
+.feed{
+  margin-left: 200px;
+  margin-bottom:0px;
+}

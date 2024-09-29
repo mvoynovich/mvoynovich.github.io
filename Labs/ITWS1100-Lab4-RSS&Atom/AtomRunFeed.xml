@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+
+	<title>Matt's Running and Track Feed</title>
+	<subtitle>Atom feed containing recent running and track events</subtitle>
+	<link href="http://voynomrpi.eastus.cloudapp.azure.com/iit" />
+	<id>urn:uuid:a849ec73-3f5b-4ed7-aa4d-88bb931d97c6</id>
+	<updated>2023-10-04T00:00:00Z</updated>
+	<author>
+		<name>Matthew Voynovich</name>
+		<email>Voynovich.matt@gmail.com</email>
+	</author>
+
+	<entry>
+		<title>Yared Nuguse Shatters American Mile Record At Prefontaine Classic</title>
+		<link href="https://www.flotrack.org/articles/11225466-yared-nuguse-shatters-american-mile-record-at-prefontaine-classic" />
+		<id>urn:uuid:7b4de4cf-45c5-4d9e-a857-31f40b38a429</id>
+		<updated>2023-09-16T00:00:00Z</updated>
+		<summary>Yared Nuguse shattered the American record in the Bowerman Mile, finishing second to Norway's Jakob Ingebrigtsen in 3:43.97 at the Prefontaine Classic.</summary>
+		<media:content url="https://d2779tscntxxsw.cloudfront.net/6506273b8dcd8.png" type="image/jpeg" />
+	</entry>
+
+	<entry>
+		<title>Rai Benjamin takes down Karsten Warholm at Prefontaine Classic</title>
+		<link href="https://world-track.org/2023/09/rai-benjamin-karsten-warholm-prefontaine-classic/" />
+		<id>urn:uuid:f25eb06c-98ef-4e88-9d9a-06a1e29f5423</id>
+		<updated>2023-09-16T00:00:00Z</updated>
+		<summary>Eliud Kipchoge wins his fifth Berlin Marathon after a career upset at the London Marathon.</summary>
+		<media:content url="https://world-track.org/wp-content/uploads/2023/09/Rai-Benjamin-wins-Prefontaine-Classic-Diamond-League-Final-title.jpg" type="image/jpeg" />
+	</entry>
+
+	<entry>
+		<title>Berlin Marathon 2023: How Eliud Kipchoge Overcame A Career Setback</title>
+		<link href="https://www.forbes.com/sites/rachelwells/2023/09/24/berlin-marathon-2023-how-eliud-kipchoge-overcame-a-career-setback/?sh=6d453d0643d2" />
+		<id>urn:uuid:76a65c4e-ecf5-4d11-8c2b-14607e2152e1</id>
+		<updated>2023-09-24T00:00:00Z</updated>
+		<summary>Rai Benjamin handed world record holder Karsten Warholm another defeat this season at Prefontaine Classic Wanda Diamond League Final at Hayward Field today.</summary>
+		<media:content url="https://imageio.forbes.com/specials-images/imageserve/65106893d84e29cc20fb492d/Berlin-Marathon---/960x0.jpg"  type="image/jpeg" />
+	</entry>
+
+	<entry>
+		<title>Noah Lyles storms to 100-meter world title, targets Usain Bolt’s 200 record</title>
+		<link href="https://www.washingtonpost.com/sports/olympics/2023/08/20/noah-lyles-100-meters-world-title/" />
+		<id>urn:uuid:9b7d478a-82ca-4935-954e-7f82c4774830</id>
+		<updated>2023-08-27T00:00:00Z</updated>
+		<summary>Noah Lyles sets leading times in both the 100m and 200m leaving him as the world's fastest man this year. Despite his cocky nature, he never fails to show up and prove why he has such confidence.</summary>
+		<media:content url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PABEVLRJC2XUSUOOBLQFT3B43Y.jpg" type="image/jpeg" />
+	</entry>
+
+	<entry>
+		<title>Ryan Crouser wins shotput world championship gold again amid blood clot scare</title>
+		<link href="https://www.latimes.com/sports/olympics/story/2023-08-19/ryan-crouser-shot-put-world-championships-gold-blood-clots" />
+		<id>urn:uuid:e3fc9d17-19e9-4463-bf21-7e683891b84b</id>
+		<updated>2023-08-19T00:00:00Z</updated>
+		<summary>Ryan Crouser took blood thinners in order to compete with blood clots and set a meet record of 77 feet 1 and 3/4 inches.</summary>
+		<media:content url="https://ca-times.brightspotcdn.com/dims4/default/f75e72a/2147483647/strip/true/crop/7243x4829+0+0/resize/1200x800!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffb%2F08%2F410053f940d89fcc0e626be2b996%2Fhungary-athletics-worlds-22475.jpg" type="image/jpeg" />
+	</entry>
+
+</feed>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ITWS1100 Lab 6 : jQuery</title>
+    <meta charset="UTF-8" />
+    <meta viewport="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="resources/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="lab6.js"></script>
+    <link rel="stylesheet" href="lab6.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="bodyBlock">
+      <p>
+        <button type="button" id="labButton">Lab 6 Button</button>
+      </p>
+      <p>
+        <form action = '../../index.html' class = "buttons">
+          <button type = "Submit">Return to Home</button>
+        </form>
+      </p>
+      <p>
+        <form action = '../../pages/projects.html' class = "buttons">
+          <button type = "Submit">Return to Projects</button>
+        </form>
+      </p>
+      <p>
+        <button type="button" id="AddListItem">Add list item</button>
+      </p>
+      <h1>Lab 6: <em class="myName">Your Name</em></h1>
+
+      <ul id="labList">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+      </ul>
+
+      <div id="showHideBlock">
+        <div id="showHideLinks">
+          <a href="#" id="toggleText">Toggle Text</a>
+          <a href="#" id="hideText">Hide Text</a> |
+          <a href="#" id="showText">Show Text</a>
+        </div>
+        <p>
+          <strong>Using the following files:<br></strong>
+          lab6.css<br>
+          lab6.html<br>
+          lab6.js<br>
+          <strong>Follow the following instructions:<br></strong>
+        </p>
+        <p>
+          <strong>Problem #1:</strong><br>
+          When the user clicks on the, h1<br>
+          change the 'your name' to your own name (ie Joe Smith)<br>
+          change the text to be your name in small caps<br>
+          change the color to be something other than blue or black<br>
+          change the text size to 110% of normal<br>
+          (note that there is already a class defined for the area where your name should go)<br>
+        </p>
+        <p>
+          <strong>Problem #2:</strong><br>
+          Make the "lorem ipsum" paragraphs vanish over a 4/10 sec duration when a user clicks "Hide text";<br>
+          make it appear with a 2 second duration when a user clicks "Show text":<br>
+        </p>
+        <p>
+          <strong>Problem #3:</strong><br>
+          When a normal list item is clicked, make it turn red using addClass.<br>
+          When a red list item is clicked change it back (you need to look up the appropriate jQuery method to do this)<br>
+          (Note that there already is a css style named ".red" in lab6.css)<br>
+        </p>
+        <p>
+          <strong>Problem #4a:</strong><br> When a user clicks on the "Add a list item" button, add a new list item to the end of the list.<br>
+          <strong>Problem #4b:</strong><br> What happens when you click on the new li?  Why? (Explain in your readme file and then fix the issue)<br>
+        </p>
+        <p>
+          <strong>Problem #5:</strong><br>
+          Find another jquery method to hide and show elements. Then, use this code on the "Toggle Text"
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

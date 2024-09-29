@@ -1,0 +1,67 @@
+{
+   "projects": [
+      {
+         "labNum": "Lab 2",
+         "title": "Resume",
+         "location": "Labs/ITWS1100-Lab02-HTML/Voynom-MatthewVoynovich-resume.html",
+         "imageLink": "resources/ResumeIcon.png",
+         "description": "Click the Resume or LinkedIn tab on the side to see my updated resume in whatever form you wish!. Created a stand-alone html resume for the class. Learned new techniques in html and css. Linked the resume and LinkedIn to my personal website"
+      },
+      {
+         "labNum": "Lab 3",
+         "title": "Website",
+         "location": "index.html",
+         "imageLink": "resources/web.png",
+         "description": "You're looking at it!. Created a personal website to store and present my Resume, Projects, and LinkedIn. Made documentation in html file and read me for easier updating and development of the website. Will continue to expand upon website and make interface and appearance better"
+      },
+      {
+         "labNum": "Lab 4",
+         "title": "RSS & Atom Feeds",
+         "location": "pages/feeds.html",
+         "imageLink": "resources/newspaper.png",
+         "description": "Made both a RSS and Atom feed for webpage. Contains articles about running and track events I find interesting. Click Lab 4 link or image for formatted RSS and XML. Link to raw RSS: <a href = '/Labs/ITWS1100-Lab4-RSS&Atom/RSSRunFeed.xml'>Click to view raw RSS feed</a>. Link to raw Atom: <a href = 'Labs/ITWS1100-Lab4-RSS&Atom/AtomRunFeed.xml'> Click to view raw Atom feed</a>"
+      },
+      {
+         "labNum": "Lab 5",
+         "title": "JavaScript Form",
+         "location": "Labs/ITWS1100-Lab5-JavaScript/lab5.html",
+         "imageLink": "resources/form.png",
+         "description": "HTML page containing a form to submit contact information. Buttons to navigate back to main site. Validated form by checking if user entered in all required information. Read data from form without a submit. Used to learn and understand javascript"
+      },
+      {
+         "labNum": "Lab 6",
+         "title": "JQuery Page",
+         "location": "Labs/ITWS1100-lab6-jQuery/lab6.html",
+         "imageLink": "resources/jQuery.png",
+         "description": "Edited a page to have functionality using the JQuery package. Used to learn how to utilize JQuery and JavaScript to make changed to a page and elements with on events. Instructions for the lab are on the solution page linked. Buttons on page to navigate back to main website"
+      },
+      {
+         "labNum": "Lab 7",
+         "title": "Lost & Found - HCI",
+         "location": "https://github.com/mvoynovich/LostAndFound",
+         "imageLink": "resources/lostAndFound.png",
+         "description": "Worked with group on developing personas and design template for lost and found application. Created two personas to test and exempliy our use cases and potential users. Made diagrams for layout of website and how it would function for design purposes. Will implement link to project as it progresses"
+      },
+      {
+         "labNum": "Lab 8",
+         "title": "JSON & AJAX",
+         "location": "Labs/ITWS1100-Lab8-JSONAJAX/projects.json",
+         "imageLink": "resources/json.png",
+         "description": "Revamped projects page by using JQuery and AJAX. Wrote all projects into a JSON file that will be continually updated. Read from the JSON file to write to the HTML projects page based on info provided. Made the side naviagtion bar be added to all main pages with a new JS script. Home page now has last three projects continually updated. Added formatting to the Lab 4 RSS and Atom Scripts on a new page"
+      },
+      {
+         "labNum": "Lab 9",
+         "title": "PHP & mySQL",
+         "location": "Labs/ITWS1100-Lab9-PHP/phpPages/index.php",
+         "imageLink": "resources/php.png",
+         "description": "Created an Intro to ITWS database on the azure server. Utilized mySQL and phpmyadmin to store movies, actors, and their roles. Used PHP and JavaScript to query in order to add actors and movies to the databse. Also displayed actors, movies, and their roles in movies"
+      },
+      {
+         "labNum": "Lab 10",
+         "title": "RSS & Atom Feeds Revisited",
+         "location": "pages/feeds.html",
+         "imageLink": "resources/newspaper.png",
+         "description": "Displayed both an RSS and Atom feed for the webpage. Contains articles about running and track events I find interesting. Both Feeds contain the same articles so they are instead formatted differently. The RSS feed is designed to be pretty with images while taking up space. The Atom feed is designed to be minimalistic and barebones in case of the need for a condensed lsit of articles when space is an issue</a>"
+      }
+   ]
+}
