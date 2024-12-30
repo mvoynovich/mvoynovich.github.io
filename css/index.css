@@ -161,6 +161,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 #projects h1{
@@ -185,7 +186,7 @@ body{
   border: 4px solid #202A44 ;
   border-radius: 2rem;
   background: white;
-  height: 40em;
+  height: fit-content;
 }
 .projImg{
   width: 90%;
