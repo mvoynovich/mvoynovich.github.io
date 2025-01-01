@@ -7,13 +7,17 @@ This is a personal website that I have created as a place to showcase my project
 
 ## Projects
 
-### Hound
+### Automated Solver for Light Up (Akari) Using Z3 and Advanced Reasoning Techniques
 
-Group project that I undertook with two other collaborators to provide solutions to RPI's lackluster lost and found system. This project not only helped me to further practice web development and strengthen my skills, but it most importantly taught me to use github and git in effective manners. Through good communication and use of tools like issues and branches, I was able to learn how to lead a project well and work with a team to accomplish development goals along a preset schedule.
+This project houses the complete implementation, detailed documentation, and supplementary resources for solving the Light Up (Akari) puzzle using the Z3 SMT (Satisfiability Modulo Theories) solver. The project leverages automated reasoning techniques to solve puzzle configurations by encoding the rules of the game into logical constraints and employing Z3 to find valid solutions. The solver is designed to handle  board states efficiently, ensuring both correctness and performance. This project provided me with an insightful demonstration of how logical reasoning and constraint-solving technologies can be applied to solve complex combinatorial puzzles. It includes well-structured code, comprehensive explanations of the underlying algorithms, and examples showcasing the solver's capability across various puzzle scenarios.
 
 ### Fresh N' Clean
 
 "Fresh n' Clean" is an on-demand laundry service platform designed to connect users with local laundromats and independent contractors, offering a seamless experience similar to Uber. Built using JavaScript and PHP, the platform integrates the Google Maps API for location-based services, allowing users to find nearby providers, and the PayPal API for secure online payments. The project was developed using a modified Agile Scrum framework, enabling the team to iterate quickly based on continuous feedback and evolving requirements. To maintain efficient collaboration, the team leveraged GitHub Projects and Issues for version control and task tracking, ensuring organized workflow management throughout the development process. This approach allowed for the creation of an intuitive, interactive, and scalable web application that meets user needs in the on-demand service space.
+
+### Hound
+
+Group project that I undertook with two other collaborators to provide solutions to RPI's lackluster lost and found system. This project not only helped me to further practice web development and strengthen my skills, but it most importantly taught me to use github and git in effective manners. Through good communication and use of tools like issues and branches, I was able to learn how to lead a project well and work with a team to accomplish development goals along a preset schedule.
 
 ### ID3 Algorithm
 
