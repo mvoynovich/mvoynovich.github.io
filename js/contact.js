@@ -15,13 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const formData = { name, email, message };
 
       try {
-          const response = await fetch("https://script.google.com/macros/s/AKfycbwV0qWcMmR5HZbHNsydumKg_kX0-gu_tzQ51D3_mngXtdL8H28eFjv9zlt101xa6Ipm0g/exec", {
-              method: "POST",
-              headers: {
-                  "Content-Type": "application/json"
-              },
-              body: JSON.stringify(formData)
-          });
+        const response = await fetch("YOUR_GOOGLE_APPS_SCRIPT_URL?name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&message=" + encodeURIComponent(message), {
+          method: "GET",
+          mode: "cors"
+        });
+      
 
           const result = await response.json();
 
