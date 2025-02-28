@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const formData = { name, email, message };
 
       try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbwGJCMeLUJmaNwv7U4HbUmLC11mdUra4D5GiU88pOMC3j6XghhD4RBEvSzRjhoMYLbd9A/exec?name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&message=" + encodeURIComponent(message), {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbwskn2iY0-Fn8tCKnD1KujtoUutZ4D3X6D8f-cUcRgj4etofOOYwgpq-2_bIVzrnjUDPA/exec?name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&message=" + encodeURIComponent(message), {
           method: "GET",
           mode: "cors"
         });
